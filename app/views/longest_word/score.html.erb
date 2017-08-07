@@ -1,0 +1,7 @@
+
+<P>Your word: <%= @user_longest_word %></P>
+<p>Time Taken to answer: <%= @score[:time] %></p>
+<p>Your score: <%= @score[:score] %></p>
+<p>Message: <%= @score[:message] %></p>
+<%= link_to "Try again", game_path %>
+
